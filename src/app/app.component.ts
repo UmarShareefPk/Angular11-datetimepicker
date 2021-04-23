@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'datetimepicker';
+  selectedMoment:any = new Date();
+
+  dateChanged(event:any){
+    console.log(event);
+
+  }
 }
+
